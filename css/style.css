@@ -105,10 +105,16 @@ body {
   padding-left: 10px;
 }
 
+.search_filter {
+  border: 1px solid #000;
+  background-color: #fac564;
+  cursor: pointer;
+}
+
 .search_btn {
   background: #fac564;
   padding: 10px 50px;
-  border: none;
+  border: 1px solid #000;
   outline: none;
   color: #000;
   letter-spacing: 1px;

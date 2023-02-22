@@ -50,6 +50,12 @@
 					<div class="container search_bar mt-5">
 						<form class="search_form" action="">
 							<input class="search_input" type="text" placeholder="what are you looking for?">
+							<select name="filter" class="search_filter">
+								<option value="no-filter" selected>Filter</option>
+								<option value="cuisine">Cuisines</option>
+								<option value="meal">Meals</option>
+								<option value="restaurant">Restaurants</option>
+							</select>
 							<button class="search_btn" type="submit">Search</button>
 						</form>
 					</div>
